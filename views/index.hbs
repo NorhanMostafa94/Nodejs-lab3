@@ -1,0 +1,14 @@
+<form action="/users" method="POST">
+    <div class="form-group">
+        <label>User</label>
+        <input type="text" name="name">
+    </div>
+    <button type="submit">Add to Users</button>
+</form>
+
+{{#each users}}
+    <h1> {{this.name}}</h1>
+    <h2> {{@index}} </h2>
+    <a href="/users/edit/{{@index}}">edit</a>
+    <a href="/users/delete/{{@index}}">delete</a>
+{{/each}}

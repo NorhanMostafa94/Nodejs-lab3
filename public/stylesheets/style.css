@@ -1,0 +1,22 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+form {
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row
+}
